@@ -1,0 +1,102 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+  @media (max-width:799px){
+    text-align: center;
+    font-size: 3.5rem;
+  }
+}
+
+h1>div{
+  display: block;
+}
+
+h1>span{
+  color: midnightblue;
+}
+
+p{
+  margin: 0px;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+  clear: both;
+  @media (max-width:799px){
+    font-size: 0.75rem;
+  }
+}
+
+.logo{
+  @media (max-width:799px){
+    width: 50%;
+  }
+
+}
+.card img{
+  height: 200px;
+  margin-right: 50px;
+  float:left;
+  @media (max-width:1501px) and (min-width:800px){
+    margin-bottom: 50px;
+  }
+  @media (max-width:799px){
+    width: 100%;
+    margin: 20px 0px;
+  }
+  
+}
+
+.left {
+  width: 47%;
+  float: left; 
+  @media (max-width:1501px) and (min-width:800px){
+    width:100%;
+  }
+  @media (max-width:799px){
+    width: 100%;
+    font-size: 0.75rem;
+  }
+}
+
+.card-title{
+  display: block;
+  @media (max-width:1501px){
+    display: block;
+  }
+}
+
+.card-text{
+  display: inline;
+}
+
+.right{
+  width: 47%;
+  float: right;
+  @media (max-width:1501px) and (min-width:800px){
+    width:100%;
+  }
+  @media (max-width:799px){
+    width: 100%;
+    font-size: 0.75rem;
+  }
+  
+}
+
+
+
+
+
+
